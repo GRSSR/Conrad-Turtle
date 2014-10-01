@@ -1,0 +1,5 @@
+goto /conrad/goto
+locate /conrad/locate
+platform /conrad/platform
+reset /conrad/reset
+room /conrad/room
