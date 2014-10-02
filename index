@@ -3,3 +3,5 @@ locate locate.lua /conrad/locate
 platform platform.lua /conrad/platform
 reset reset.lua /conrad/reset
 room room.lua /conrad/room
+
+api:conrad

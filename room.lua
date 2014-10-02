@@ -1,5 +1,5 @@
 args = {...}
-os.loadAPI("conrad")
+os.loadAPI("api/turtle/conrad")
 
 conrad.loadCoords()
 if args[1] == "resume" then

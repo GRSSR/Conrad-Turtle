@@ -1,4 +1,4 @@
-os.loadAPI("conrad")
+os.loadAPI("api/turtle/conrad")
 args = {...}
 conrad.loadCoords()
 conrad.goTo(
