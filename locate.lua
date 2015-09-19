@@ -1,3 +1,3 @@
-os.loadAPI("api/turtle/conrad")
+os.loadAPI("/.sys/turtle/conrad")
 conrad.loadCoords()
 conrad.printCoords()

@@ -1,7 +1,30 @@
-goto goto.lua /conrad/goto
-locate locate.lua /conrad/locate
-platform platform.lua /conrad/platform
-reset reset.lua /conrad/reset
-room room.lua /conrad/room
-
-api:conrad
+{
+	dependancies = {
+		"api"
+	},
+	files = {
+		{
+			install_location = "/bin/turtle/goto",
+			repo_location = "goto.lua"
+		},
+		{
+			install_location = "/bin/turtle/locate",
+			repo_location = "locate.lua"
+		},
+		{
+			install_location = "/bin/turtle/platform",
+			repo_location = "platform.lua"
+		},
+		{
+			install_location = "/bin/turtle/reset",
+			repo_location = "reset.lua"
+		},
+		{
+			install_location = "/bin/turtle/room",
+			repo_location = "room.lua"
+		}
+	},
+	aliases = {
+	},
+	version = "1.0.0"
+}
